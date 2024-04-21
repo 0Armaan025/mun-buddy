@@ -6,8 +6,14 @@ const DashboardPage = () => {
   return (
     <>
       <Navbar />
-      <div className="dashboard">
+      <div className="dashboard flex flex-row justify-start items-start">
         <DashboardSideBar />
+        <div className="dashboardDiv ml-4">
+          <h2 style={{ fontFamily: "Poppins" }} className="text-white text-2xl">
+            {" "}
+            Good evening, Armaan! 👋{" "}
+          </h2>
+        </div>
       </div>
     </>
   );
